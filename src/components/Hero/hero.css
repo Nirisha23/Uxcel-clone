@@ -1,0 +1,155 @@
+.heroBody{
+    margin: 16px 2%;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left{
+    width:50%;
+    
+}
+.hero-left h1{
+    font-size: 64px;
+    line-height:72px;
+    font-weight:700;
+    margin-bottom: 24px;
+    color:var(--text);
+} 
+.hero-left h1 span{
+    background-image: url(../../assets/yellow-line.svg);
+    background-repeat: no-repeat;
+    margin-bottom: -12px;
+    padding-right: 40px;
+    padding-bottom: 26px;
+    padding-left: 2px;
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+.hero-left p{
+    font-size: 20px;
+    line-height: 32px;
+    opacity: .88;
+    margin-bottom: 24px;
+    color:var(--text);
+}
+.hero-btn{
+    margin-bottom: 16px;
+}
+.hero-primary{
+    background-color: var(--primary);
+    color:#fff;
+    padding: 20px 24px;
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight:700;
+    margin-right: 12px;
+    border: none;
+}
+.hero-primary:hover{
+    background-color: #664eff;
+}
+.hero-secondary{
+    background-color: rgba(5,6,15,.04);
+    color: #05060f;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight:700;
+    padding: 20px 24px;
+    border-radius: 15px;
+    border: none;
+}
+.hero-secondary:hover{
+    background-color: rgba(5,6,15,.08);
+}
+.credit-card p{
+    opacity: .6;
+    margin: 12px 0;
+    font-size: 16px;
+}
+.hero-right{
+    width:50%;
+}
+.hero-right img{
+    width:100%;
+}
+
+/* sponsers */
+.sponsers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companies img{
+    width:22%;
+}
+.rating{
+    padding: 20px 40px;
+    border-left:1px solid lightgray;
+}
+.rating p{
+    color:var(--sub);
+    opacity: .5;
+    font-size: 14px;
+    padding-right:3rem;
+    margin: 12px 0;
+}
+.trustpilot{
+    padding: 20px 40px;
+    border-left:1px solid lightgray;
+}
+.trustpilot img{
+    width:100%;
+}
+
+/* Responsive */
+/*----------------------MAX 1024------------------*/
+@media (max-width:1024px) {
+    .hero-content{
+    display: flex;
+    flex-direction: column;
+    }
+    .hero-left, .hero-right{
+    width:100%;
+    text-align: center;
+    }
+    .hero-left{
+        margin-top: 5rem;
+    }
+    
+    .hero-left h1{
+        padding: 0 2rem;
+    }
+    .hero-left p{
+        padding: 0 1.5rem;
+    }
+    .hero-right img{
+        width:80%;
+    }
+    .sponsers{
+        margin: 3rem 0;
+    }
+    .companies img{
+        width:24%;
+    }
+    .rating{
+        padding: 20px;
+    }
+    .rating p{
+        padding-right:0;
+    }
+    .trustpilot{
+        width:30%;
+        padding: 20px;
+    }
+    .trustpilot img{
+        width:100%;
+    }
+    /*----------------------MAX 786------------------*/
+    @media(max-width:786px){
+        
+    }
+    }

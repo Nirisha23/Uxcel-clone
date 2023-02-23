@@ -1,0 +1,129 @@
+/* How It Work */
+.Howitwork{
+    width: 100%;
+}
+.howitwork-one{
+    padding: 24px 2%;
+    background-color: var(--bg-one);
+}
+.howitwork-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.howitwork-content{
+    padding: 8px 36px;
+}
+.howitwork-image, .howitwork-content{
+    width:50%;
+}
+.howitwork-image img{
+    width:100%;
+}
+.howitwork-header{
+    font-family: 'Nanum Pen Script', cursive;
+    color:#fff;
+    font-size: 28px;
+    opacity: .6;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.howitwork-body h2,
+.howitwork-two-body h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color:#fff;
+}
+.howitwork-two-body h2{
+    color:var(--text);
+}
+.howitwork-body p,
+.howitwork-two-body p{
+    opacity: .5;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.howitwork-two-body p{
+    color:var(--text);
+    opacity: .88;
+}
+.howitwork-btn,
+.howitwork-two-btn{
+    border: 2px solid #fff;
+    width: fit-content;
+    padding: 12px 0;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+.howitwork-two-btn{
+    border: 2px solid var(--text);
+}
+.howitwork-btn:hover{
+    background-color: #fff;
+}
+.howitwork-two-btn:hover{
+    background-color: var(--text);
+    color:#fff;
+}
+.howitwork-btn a,
+.howitwork-two-btn a{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;  
+    color:#fff;
+}
+.howitwork-btn a:hover{
+    color:var(--text);
+    
+}
+.howitwork-two-btn a{
+    color:var(--text);
+}
+.howitwork-two-btn a:hover{
+    color:#fff;
+}
+.new-tag{
+    position: absolute;
+    left: -15px;
+    top: -16px;
+    right: auto;
+    bottom: auto;
+    padding: 5px 7px;
+    border-radius: 20px;
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    font-size: 11px;
+    letter-spacing: .5px;
+    color:red;
+    display: flex;
+    padding: 3px 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #f8db46;
+    color: #05060f;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.howitwork-one:first-child{
+    padding: 5rem 0;
+}
+.howitwork-one:nth-child(2){
+    background-color: var(--bg-two);
+    padding: 5rem 0;
+}
+.two{
+    color:var(--text);
+}
